@@ -98,7 +98,7 @@ $(function(){
 	var defaults = 0;
 	$.ajax({
 		url: "../AJAX/"+urlId+".json",
-		type: "GET",
+		type: "POST",
 		dataType: "json",
 		success:function(data){
 			listdata = data;
