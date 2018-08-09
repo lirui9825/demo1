@@ -97,7 +97,7 @@ $(function(){
 	var pros;
 	var defaults = 0;
 	$.ajax({
-		url: "../AJAX/"+urlId+".json",
+		url: "https://lirui9825.github.io/demo1/fanke1.1/AJAX/"+urlId+".json",
 		type: "POST",
 		dataType: "json",
 		success:function(data){
