@@ -11,7 +11,7 @@ $(function(){
     var nowdata=[];
     $.ajax({
         url:"../JSON/"+urlId+".json",
-        type:"post",
+        type:"GET",
         success:function(data){
             nowdata=eval(data);
             console.log(nowdata)
