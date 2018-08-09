@@ -1,6 +1,7 @@
 $(function(){
 	//获取当前页面地址中的id，判断传入哪一套json
 	var urlId = window.location.search.split("=")[1];
+	console.log(urlId);
 	//分支,判定页面中需要根据id改变的内容，在此进行相应改变
 	switch(urlId){
 		case "1":
@@ -110,6 +111,9 @@ $(function(){
 				$(".pronums2").html("("+ (defaults) +")");
 				$(".omit").next().html(pros + 1);
 			})
+		},
+		error:function(err){
+			console.log(err);
 		}
 	})
 
@@ -278,7 +282,7 @@ $(function(){
 
 		$.ajax({
 			url: "../AJAX/"+urlId+".json",
-			type: "post",
+			type: "GET",
 			success:function(data){
 				$.each(objsortlow(data), function(index, value){
 					diyAjax(value);
