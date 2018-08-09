@@ -170,7 +170,7 @@ $(function(){
 			var flag = true;
 			$.ajax({
 				url:"../AJAX/"+urlId+".json",
-				type: "post",
+				type: "get",
 				success:function(data){
 					$.each(data, function(index, value){
 						var prices = parseInt(value.price.split("￥")[1]);
