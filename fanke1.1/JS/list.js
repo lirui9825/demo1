@@ -97,10 +97,8 @@ $(function(){
 	var pros;
 	var defaults = 0;
 	$.ajax({
-		url: "https://lirui9825.github.io/demo1/fanke1.1/AJAX/"+urlId+".json",
+		url: "../AJAX/"+urlId+".json",
 		type: "POST",
-		contentType: "application/json", 
-		dataType: "json",
 		success:function(data){
 			listdata = data;
 			$.each(listdata, function(index, value){
@@ -176,7 +174,6 @@ $(function(){
 			$.ajax({
 				url:"../AJAX/"+urlId+".json",
 				type: "POST",
-				dataType: "json",
 				success:function(data){
 					$.each(data, function(index, value){
 						var prices = parseInt(value.price.split("￥")[1]);
@@ -268,7 +265,6 @@ $(function(){
 		$.ajax({
 			url: "../AJAX/"+urlId+".json",
 			type: "POST",
-			dataType: "json",
 			success:function(data){
 				$.each(objsort(data), function(index, value){
 					diyAjax(value);
@@ -287,7 +283,6 @@ $(function(){
 		$.ajax({
 			url: "../AJAX/"+urlId+".json",
 			type: "POST",
-			dataType: "json",
 			success:function(data){
 				$.each(objsortlow(data), function(index, value){
 					diyAjax(value);
