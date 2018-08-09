@@ -1,0 +1,98 @@
+[
+    {
+        "goodsId":"xbx_1",
+        "goodName":"童装T恤 熊本熊 T13 白色",
+        "info":[
+            {   "color":"白色",
+                "thumsrc":["../images/1.1.jpg","../images/1.2.jpg"],
+                "view":["../images/1.jpg","../images/2.jpg"],
+                "bigview":["../images/big1.jpg","../images/big2.jpg"],
+                "spsrc":"../images/SpriteColors.jpg",
+                "size":["110","120","130","140"],
+                "price":"78.00",
+                "goodsNum":"现在有货",
+                "youhui":["全场购物满199元免运费"],
+                "pics":["../images/show.jpg","../images/model.jpg","../images/shouquan.jpg","../images/anti-fake.jpg","../images/size.jpg","../images/baoyang.jpg"],
+                "tuijian":[{
+                        "src":"../images/hot_1.jpg",
+                        "goodname":"凡客T恤 熊本熊T14 黑色",
+                        "price":"售价￥78"
+                    },
+                    {
+                        "src":"../images/hot_2.jpg",
+                        "goodname":"凡客T恤 水柔棉 短袖圆领 男款 白色",
+                        "price":"售价￥168"
+                    },
+                    {
+                       "src":"../images/hot_3.jpg",
+                        "goodname":"凡客衬衫 泡泡纱 短袖 男款 蓝白格",
+                        "price":"售价￥198"
+                    },
+                    {
+                       "src":"../images/hot_4.jpg",
+                        "goodname":"凡客帆布鞋 男款 黑色",
+                        "price":"售价￥198"
+                    },
+                    {
+
+                       "src":"../images/hot_5.jpg",
+                        "goodname":"凡客休闲鞋 1 男款 白色",
+                        "price":"售价￥518"
+                    }
+                ]
+            }
+        ],
+        "pingjia":[
+            {
+                "userid":"***cl_728477**",
+                "vip":"0",
+                "vipsrc":"../images/vip.jpg",
+                "msg":"一直支持你们",
+                "img":[],
+                "date":"2017-08-13",
+                "info":{
+                    "颜色":"白色",
+                    "尺码":"120",
+                    "身高":"0cm",
+                    "体重":"0.0kg",
+                    "评价":"<尺码合适>"
+                }
+            },
+            {
+                "userid":"1862*****12",
+                "vip":"1",
+                "vipsrc":"../images/vip.jpg",
+                "msg":"很不错 以后还买",
+                "img":["../images/pltu.jpg"],
+                "date":"2017-08-02",
+                "info":{
+                    "颜色":"白色",
+                    "尺码":"110",
+                    "身高":"0cm",
+                    "体重":"0.0kg",
+                    "评价":"<尺码合适>"
+                }
+            }
+        ],
+        "question":[
+            {
+                "userid":"thir***",
+                "msg":"130cm的孩子穿啥号？",
+                "date":"2017-08-02",
+                "ask":"亲爱的客户您好，为了给您提供更准确的尺码参考，请您提供一下具体的体重信息。感谢您的支持！祝您购物愉快！\\(^o^)/~"
+            },
+            {
+                "userid":"沃德天·维森陌·拉莫帅***",
+                "msg":"这个衣服大小号码合适吗",
+                "date":"2017-07-31",
+                "ask":"亲爱的客户您好，为了给您提供更准确的尺码参考，请您提供一下具体的体重信息。感谢您的支持！祝您购物愉快！\\(^o^)/~"
+            },
+            {
+                "userid":"lirui·维森陌·拉莫帅",
+                "msg":"可以充值不是整百吗？比如130？是变260吗",
+                "date":"2017-07-26",
+                "ask":"亲爱的客户您好，是的，可以。感谢您的支持！"
+            }
+        ]
+    }
+]
