@@ -98,7 +98,8 @@ $(function(){
 	var defaults = 0;
 	$.ajax({
 		url: "../AJAX/"+urlId+".json",
-		type: "GET",
+		type: "POST",
+		dataType: "json",
 		success:function(data){
 			listdata = data;
 			$.each(listdata, function(index, value){
@@ -170,7 +171,8 @@ $(function(){
 			var flag = true;
 			$.ajax({
 				url:"../AJAX/"+urlId+".json",
-				type: "get",
+				type: "POST",
+				dataType: "json",
 				success:function(data){
 					$.each(data, function(index, value){
 						var prices = parseInt(value.price.split("￥")[1]);
@@ -261,7 +263,8 @@ $(function(){
 		$(".pldown_a").prop("title", "价格由高到低");
 		$.ajax({
 			url: "../AJAX/"+urlId+".json",
-			type: "post",
+			type: "POST",
+			dataType: "json",
 			success:function(data){
 				$.each(objsort(data), function(index, value){
 					diyAjax(value);
@@ -279,7 +282,8 @@ $(function(){
 
 		$.ajax({
 			url: "../AJAX/"+urlId+".json",
-			type: "post",
+			type: "POST",
+			dataType: "json",
 			success:function(data){
 				$.each(objsortlow(data), function(index, value){
 					diyAjax(value);
